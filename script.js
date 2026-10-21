@@ -14,11 +14,11 @@
    For Instagram, you can add a screenshot: thumb: "assets/reel1.jpg"
    The three below are examples. Replace them with your own links. */
 const VIDEOS = [
-  { platform: "youtube",   title: "Example: Your best YouTube video",  url: "https://www.youtube.com/watch?v=8pjgSqgLjtc&t=354s" },
-  { platform: "youtube",   title: "Example: Your best YouTube video",  url: "https://youtu.be/Ntc6Jtgg7kk" },
-  { platform: "youtube",   title: "Example: Your best YouTube video",  url: "https://youtu.be/jg-xn077PlI" },
-  { platform: "youtube",   title: "Example: A board exam guidance video", url: "https://www.youtube.com/watch?v=oODlcoRrSP4" },
-  { platform: "instagram", title: "Example: Your best Instagram reel", url: "https://www.instagram.com/seekh_kar_sikhate_raho/", thumb: "" }
+  { platform: "youtube",   title: " ",  url: "https://www.youtube.com/watch?v=8pjgSqgLjtc&t=354s" },
+  { platform: "youtube",   title: " ",  url: "https://youtu.be/Ntc6Jtgg7kk" },
+  { platform: "youtube",   title: " ",  url: "https://youtu.be/jg-xn077PlI" },
+  { platform: "youtube",   title: " ", url: "https://www.youtube.com/watch?v=oODlcoRrSP4" },
+  { platform: "instagram", title: " ", url: "https://www.instagram.com/seekh_kar_sikhate_raho/", thumb: "" }
 ];
 
 /* ---------- 2. HELPERS ---------- */
