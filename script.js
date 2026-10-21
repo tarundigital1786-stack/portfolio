@@ -18,7 +18,9 @@ const VIDEOS = [
   { platform: "youtube",   title: " ",  url: "https://youtu.be/Ntc6Jtgg7kk" },
   { platform: "youtube",   title: " ",  url: "https://youtu.be/jg-xn077PlI" },
   { platform: "youtube",   title: " ", url: "https://www.youtube.com/watch?v=oODlcoRrSP4" },
-  { platform: "instagram", title: " ", url: "https://www.instagram.com/seekh_kar_sikhate_raho/", thumb: "" }
+  { platform: "instagram", title: " ", url: "https://www.instagram.com/reel/DaJ3-kIT6Gl/?obrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==", thumb: "" },
+  { platform: "instagram", title: " ", url: "https://www.instagram.com/reel/DbXLo4nTDQe/?psln=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==", thumb: "" },
+  { platform: "instagram", title: " ", url: "https://www.instagram.com/reel/DaJ3-kIT6Gl/?obrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==", thumb: "" },
 ];
 
 /* ---------- 2. HELPERS ---------- */
