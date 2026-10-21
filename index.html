@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barkha | Social Science Teacher &amp; Educational Content Creator</title>
+  <meta name="description"
+    content="Barkha is a Social Science (TGT) teacher and educational content creator for CTET, secondary and elementary education.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Nunito+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="logo">Barkha</a>
+      <nav id="menu" class="menu" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#reach">Reach</a>
+        <a href="#videos">Videos</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="icon-btn" aria-label="Switch light or dark theme">◐</button>
+      <button id="menuToggle" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HOME ============ -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Social Science (TGT) Teacher · Content Creator</p>
+          <h1>I make Social Science easy to understand and easy to remember.</h1>
+          <p class="lead">4 years of classroom teaching, plus handwritten notes, concept videos and exam guidance for
+            CTET, secondary and elementary students, in Hindi and English.</p>
+          <div class="actions">
+            <a class="btn primary" href="#videos">Watch my videos</a>
+            <a class="btn" href="#contact">Work with me</a>
+          </div>
+        </div>
+        <!-- Photo: looks in assets/photo.jpg first, then in the same folder as this file -->
+        <img class="portrait" src="assets/photo.jpg" alt="Portrait of Barkha"
+          onerror="this.onerror=null; this.src='photo.jpg';">
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about">
+      <div class="container narrow">
+        <h2>About me</h2>
+        <p>I’m a passionate Social Science teacher with 4 years of experience in middle and secondary classes. I teach
+          in both Hindi and English, and I focus on clear lesson planning, activity-based learning and a positive
+          classroom.</p>
+        <p>Alongside teaching, I run <strong>Seekh Kar Sikhate Raho</strong> on YouTube and Instagram, sharing teaching
+          strategies, exam preparation, board exam guidance, handwritten notes and concept-based resources. I’m a former
+          NSS leader, and I’m currently pursuing an M.A. in Political Science.</p>
+        <ul class="chips">
+          <li>Classroom management</li>
+          <li>Lesson planning</li>
+          <li>Assessment &amp; evaluation</li>
+          <li>Educational content creation</li>
+          <li>MS Word, PowerPoint, Canva</li>
+          <li>Hindi &amp; English</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ REACH (animated numbers) ============ -->
+    <!-- To change a number, edit data-target (the real value) and data-suffix. -->
+    <section id="reach" class="tinted">
+      <div class="container">
+        <h2>My audience</h2>
+        <p class="muted">Students and aspiring teachers who learn with me every day.</p>
+        <div class="stats">
+          <article class="stat"><b class="count" data-target="16.7" data-decimals="1"
+              data-suffix="K">0</b><span>Instagram followers</span></article>
+          <article class="stat"><b class="count" data-target="17.2" data-decimals="1"
+              data-suffix=" lakh">0</b><span>Instagram views in the last 30 days</span></article>
+          <article class="stat"><b class="count" data-target="14.4" data-decimals="1" data-suffix="K">0</b><span>YouTube
+              subscribers</span></article>
+          <article class="stat"><b class="count" data-target="13.4" data-decimals="1"
+              data-suffix="K">0</b><span>Telegram subscribers</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VIDEOS (cards are created by script.js) ============ -->
+    <section id="videos">
+      <div class="container">
+        <h2>My videos</h2>
+        <p class="muted">Here is my work.</p>
+        <div class="filters" role="tablist" aria-label="Filter videos">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="youtube">YouTube</button>
+          <button class="filter" data-filter="instagram">Instagram</button>
+        </div>
+        <div id="videoGrid" class="video-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ TEACHING & EDUCATION (tabs) ============ -->
+    <section id="teaching" class="tinted">
+      <div class="container">
+        <h2>Teaching &amp; education</h2>
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-tab="experience" role="tab">Experience</button>
+          <button class="tab" data-tab="education" role="tab">Education</button>
+          <button class="tab" data-tab="content" role="tab">Content</button>
+        </div>
+
+        <div id="experience" class="panel active">
+          <h3>Social Science (TGT) Teacher · 2023 to 2026</h3>
+          <ul class="list">
+            <li>Taught Social Science to middle and secondary classes.</li>
+            <li>Prepared lesson plans and worksheets.</li>
+            <li>Conducted classroom assessments.</li>
+            <li>Used activity-based and interactive teaching methods.</li>
+          </ul>
+        </div>
+
+        <div id="education" class="panel">
+          <table>
+            <thead>
+              <tr>
+                <th>Qualification</th>
+                <th>Board / University</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>M.A. Political Science (pursuing, 2026–27)</td>
+                <td>IGNOU</td>
+                <td>In progress</td>
+              </tr>
+              <tr>
+                <td>B.Ed (2024)</td>
+                <td>MDU</td>
+                <td>76.3% · 1st Division</td>
+              </tr>
+              <tr>
+                <td>B.A (2021)</td>
+                <td>DU (LBC)</td>
+                <td>69.6% · 1st Division</td>
+              </tr>
+              <tr>
+                <td>Class 12 (2018)</td>
+                <td>CBSE</td>
+                <td>79.8%</td>
+              </tr>
+              <tr>
+                <td>Class 10 (2016)</td>
+                <td>CBSE</td>
+                <td>66.5%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="content" class="panel">
+          <h3>Educational content creator</h3>
+          <ul class="list">
+            <li>Content for CTET, secondary and elementary education.</li>
+            <li>Teaching strategies and exam preparation.</li>
+            <li>Board exam guidance.</li>
+            <li>Handwritten notes and concept-based learning resources.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section id="achievements">
+      <div class="container">
+        <h2>Achievements &amp; certificates</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>CTET qualified</h3>
+            <p>Paper 2 (Social Science).</p>
+          </article>
+          <article class="card">
+            <h3>Class topper in History</h3>
+            <p>Top of the class in History in the 1st and 3rd year of graduation.</p>
+          </article>
+          <article class="card">
+            <h3>NSS certificate</h3>
+            <p>Awarded for leadership and communication skills as an NSS leader.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="tinted">
+      <div class="container narrow center">
+        <h2>Let’s work together</h2>
+        <p class="muted">For brand collaborations, educational content or teaching opportunities, write to me.</p>
+        <div class="actions center">
+          <a class="btn primary" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Email
+            me</a>
+          <button class="btn" id="copyEmail" type="button">Copy email</button>
+          <a class="btn" href="tel:+919818670680">Call 98186 70680</a>
+        </div>
+        <p class="socials">
+          <a href="https://www.youtube.com/results?search_query=Seekh+Kar+Sikhate+Raho" target="_blank"
+            rel="noopener">YouTube</a>
+          <a href="https://www.instagram.com/seekh_kar_sikhate_raho/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://l.instagram.com/?u=https%3A%2F%2Ft.me%2Fseekhkarsikhateraho99%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAad0OzX7Qr_wk4TMXOUKLYbGkWE8hoh2K8SCLFFNWvQwmTAgV-eXDTqf4-wodQ_aem_x-5vzfIavp8NBvM-Kr2e3g&e=AUBYEuuDMlc2Ix6_ezVZ2OSo1Lu3duUGuCJo3fT1N9QbPXxryC4VXeTkpGggU0rjw_8D8JWtCgLrOx9OLkCg-D4Wn0jxOUFtB0GsqN3nobvIp53bjCZUgwCeddK9NLvoLzvJuRc"
+            target="_blank" rel="noopener">Telegram</a> <!-- paste your Telegram link in place of # -->
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Barkha · Delhi, India</div>
+  </footer>
+
+  <!-- Video pop-up -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal-box">
+      <button id="modalClose" class="icon-btn" aria-label="Close video">✕</button>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
